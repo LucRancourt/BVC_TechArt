@@ -10,13 +10,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 92886790299478755, guid: 941bea72523fa924a88a20572308819b, type: 3}
       propertyPath: m_Name
-      value: Wall_All Variant
+      value: Wall_Corner
       objectReference: {fileID: 0}
     - target: {fileID: 423423924522446927, guid: 941bea72523fa924a88a20572308819b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 474965535942071343, guid: 941bea72523fa924a88a20572308819b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 526339887981673337, guid: 941bea72523fa924a88a20572308819b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -73,6 +77,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4275678753908768949, guid: 941bea72523fa924a88a20572308819b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5744934571259139103, guid: 941bea72523fa924a88a20572308819b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
