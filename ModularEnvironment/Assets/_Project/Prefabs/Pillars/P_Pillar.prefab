@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2100609163955009972}
   - component: {fileID: 1165531353632886176}
   m_Layer: 0
-  m_Name: HookDecor_07
+  m_Name: HookDecor_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863866082619068344}
-  m_Mesh: {fileID: 859545985803431792, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
+  m_Mesh: {fileID: 2981408494329510619, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
 --- !u!23 &1165531353632886176
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 8021682878158360838}
   - component: {fileID: 6088700124247460769}
   m_Layer: 0
-  m_Name: HookDecor_06
+  m_Name: HookDecor_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,7 +259,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2275714209085457635}
-  m_Mesh: {fileID: 2002532253457045457, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
+  m_Mesh: {fileID: 670296574444760152, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
 --- !u!23 &6088700124247460769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 1779190104701048734}
   - component: {fileID: 2119869739410225046}
   m_Layer: 0
-  m_Name: HookDecor_04
+  m_Name: HookDecor_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -704,7 +704,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7923691107087103332}
-  m_Mesh: {fileID: 2981408494329510619, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
+  m_Mesh: {fileID: -5242633685891255737, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
 --- !u!23 &2119869739410225046
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 2495930154477261220}
   - component: {fileID: 1498372038490167525}
   m_Layer: 0
-  m_Name: HookDecor_05
+  m_Name: HookDecor_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -882,7 +882,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8941192414835979099}
-  m_Mesh: {fileID: -8900822543889951373, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
+  m_Mesh: {fileID: -3828811663854235079, guid: 55d7ddd6238a95a4ca09ff0f7797219c, type: 3}
 --- !u!23 &1498372038490167525
 MeshRenderer:
   m_ObjectHideFlags: 0
