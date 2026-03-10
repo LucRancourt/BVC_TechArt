@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5836818256423399409}
   - component: {fileID: 4865046677270116731}
   - component: {fileID: 1436323113833149416}
+  - component: {fileID: 6699359187338949578}
   m_Layer: 0
   m_Name: P_Floor_Sunk_End
   m_TagString: Untagged
@@ -91,3 +92,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6699359187338949578
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736839724487641065}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6371566028326564733, guid: 4d372857e8590ae4a91d503dab727cfa, type: 3}

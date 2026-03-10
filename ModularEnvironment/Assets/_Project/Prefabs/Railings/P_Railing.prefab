@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1001153440111037539}
   - component: {fileID: 454015296999944439}
   - component: {fileID: 9184182107136739054}
+  - component: {fileID: 3386466603254239737}
   m_Layer: 0
   m_Name: Rail_Top
   m_TagString: Untagged
@@ -89,6 +90,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3386466603254239737
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192502552342760683}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4397523897792793563, guid: 00e1365fdf195a1499c52d0f6aeccdb7, type: 3}
 --- !u!1 &2342126013707599663
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +156,7 @@ GameObject:
   - component: {fileID: 6349124135769735161}
   - component: {fileID: 663407698531553531}
   - component: {fileID: 5219093872715451130}
+  - component: {fileID: 8447693979523811948}
   m_Layer: 0
   m_Name: Rail_Bottom
   m_TagString: Untagged
@@ -211,3 +235,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8447693979523811948
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266929677219038850}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8515399648216426176, guid: 00e1365fdf195a1499c52d0f6aeccdb7, type: 3}

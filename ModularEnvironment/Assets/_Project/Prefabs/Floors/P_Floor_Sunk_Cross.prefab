@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8032926982916911776}
   - component: {fileID: 8107385975644164167}
   - component: {fileID: 3820573796380655378}
+  - component: {fileID: 8447899330666826455}
   m_Layer: 0
   m_Name: P_Floor_Sunk_Cross
   m_TagString: Untagged
@@ -91,3 +92,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8447899330666826455
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576340508634993611}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5848853152158315303, guid: 41af406a08710bb4abcb0f6a298f6439, type: 3}
