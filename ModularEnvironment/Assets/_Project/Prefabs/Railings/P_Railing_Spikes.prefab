@@ -1,26 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &8994877995342328432
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 3060690429387931226}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2739732739694685813
 GameObject:
   m_ObjectHideFlags: 0
@@ -35,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1096798406193823940
 Transform:
@@ -114,6 +93,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Spike_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9112886923826617905, guid: 4d83a36948bfe7e4ca30ad0fd8a9e881, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -135,6 +118,10 @@ PrefabInstance:
     - target: {fileID: 5155311007338914482, guid: 68fd5cfad6d2bed4da8acab46aeb6f27, type: 3}
       propertyPath: m_Name
       value: P_Spike_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155311007338914482, guid: 68fd5cfad6d2bed4da8acab46aeb6f27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8832442351856685072, guid: 68fd5cfad6d2bed4da8acab46aeb6f27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -197,6 +184,10 @@ PrefabInstance:
     - target: {fileID: 89670732418319759, guid: 082418824bdd12048b1413cd0bc7012d, type: 3}
       propertyPath: m_Name
       value: P_Spike_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 89670732418319759, guid: 082418824bdd12048b1413cd0bc7012d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 538311401062135566, guid: 082418824bdd12048b1413cd0bc7012d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -322,6 +313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Spike_06
       objectReference: {fileID: 0}
+    - target: {fileID: 4792328910230969835, guid: cf667ca359c3f0540a1f889c6455e87a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7725352018952947143, guid: cf667ca359c3f0540a1f889c6455e87a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4869995
@@ -424,6 +419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Spike_07
       objectReference: {fileID: 0}
+    - target: {fileID: 5448980294414288431, guid: fac36e71c5cba23408af471cceef0a66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -445,6 +444,10 @@ PrefabInstance:
     - target: {fileID: 5890705273058882074, guid: f3b7eab71c6c9834ea1a09c77e5b6a98, type: 3}
       propertyPath: m_Name
       value: P_Spike_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890705273058882074, guid: f3b7eab71c6c9834ea1a09c77e5b6a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7616103167343283129, guid: f3b7eab71c6c9834ea1a09c77e5b6a98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -548,6 +551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Spike_01
       objectReference: {fileID: 0}
+    - target: {fileID: 2800295548883806579, guid: fb4ec5f58b424d1478940fcf131a7e5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -610,6 +617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Spike_03
       objectReference: {fileID: 0}
+    - target: {fileID: 9112886923826617905, guid: 4d83a36948bfe7e4ca30ad0fd8a9e881, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -671,6 +682,10 @@ PrefabInstance:
     - target: {fileID: 5912230451910115422, guid: 99a1a02143184494089ed7b36f9d1f51, type: 3}
       propertyPath: m_Name
       value: P_Spike_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912230451910115422, guid: 99a1a02143184494089ed7b36f9d1f51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

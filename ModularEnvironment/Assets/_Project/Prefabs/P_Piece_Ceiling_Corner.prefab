@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2677773972398533603
 Transform:
@@ -86,6 +86,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Arch_Straight
       objectReference: {fileID: 0}
+    - target: {fileID: 4180145589322494792, guid: d0aa50dafa7ef5947b116f8598515dd8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -107,6 +111,10 @@ PrefabInstance:
     - target: {fileID: 5404035892928445557, guid: 921e3046400e3a84aa55bb3337557873, type: 3}
       propertyPath: m_Name
       value: P_Ceiling_Corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404035892928445557, guid: 921e3046400e3a84aa55bb3337557873, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8003182338624232906, guid: 921e3046400e3a84aa55bb3337557873, type: 3}
       propertyPath: m_LocalPosition.x
@@ -169,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 1745075587402054417, guid: b8332f7b572e8084ca71cce54dd7a5d9, type: 3}
       propertyPath: m_Name
       value: P_Trim_Corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745075587402054417, guid: b8332f7b572e8084ca71cce54dd7a5d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3475666599732658957, guid: b8332f7b572e8084ca71cce54dd7a5d9, type: 3}
       propertyPath: m_LocalPosition.x
