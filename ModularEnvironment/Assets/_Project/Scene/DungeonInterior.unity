@@ -113254,7 +113254,7 @@ MonoBehaviour:
   directLightBodyScattering: 0.5
   maximumHeightOverride: 0
   caustics: 1
-  causticsIntensity: 0
+  causticsIntensity: 1000
   causticsPlaneBlendDistance: 1.41
   causticsResolution: 256
   causticsBand: 2
