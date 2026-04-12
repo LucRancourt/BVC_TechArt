@@ -104,6 +104,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_576176ab986e437cb98c561b66097044_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 570da4a8e3b5a5d43a50afe8fa89bd6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_623fe4cda156483ab179f5a354ffe5c9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 570da4a8e3b5a5d43a50afe8fa89bd6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_8ec5568aeff24e919b314937359982ec_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 26c9559888173fa4b931283cde15cdf1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -171,7 +179,7 @@ Material:
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
-    - _DepthFadeDistance: 0.16
+    - _DepthFadeDistance: 0.11
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
@@ -190,7 +198,7 @@ Material:
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
     - _EmissiveIntensityUnit: 0
-    - _EmissiveStrength: 10
+    - _EmissiveStrength: 14.26
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 0
     - _EnableGeometricSpecularAA: 0
@@ -210,21 +218,29 @@ Material:
     - _HeightTessCenter: 0.5
     - _HorizonDistance: 9.33
     - _IntersectionFoam_Cutoff: 1.12
-    - _IntersectionFoam_Depth: 0.07
+    - _IntersectionFoam_Depth: 0.13
     - _IntersectionFoam_Fade: 0.43
     - _IntersectionFoam_Speed: 0.55
-    - _IntersectionFoam_Tiling: 8.17
+    - _IntersectionFoam_Tiling: 9.57
     - _InvTilingScale: 1
     - _Ior: 1.5
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
+    - _Lighting_EmissiveStrength: 50
+    - _Lighting_Hardness: 5.41
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
+    - _MaterialTypeMask: 2
     - _Metallic: 0
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
+    - _Normal_HorizonDistance: 1.29
+    - _Normal_Smoothness: 2.84
+    - _Normal_Speed: 0.3
+    - _Normal_Strength: 1.68
+    - _Normal_Tiling: 6.58
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -239,6 +255,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 4
+    - _RequireSplitLighting: 0
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -258,11 +275,11 @@ Material:
     - _StencilWriteMaskMV: 43
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
-    - _SurfaceFoam_Direction: 0.16
-    - _SurfaceFoam_DistortionStrength: 0.38
-    - _SurfaceFoam_Intensity: 0.14
+    - _SurfaceFoam_Direction: 2.05
+    - _SurfaceFoam_DistortionStrength: 0.41
+    - _SurfaceFoam_Intensity: 0.07
     - _SurfaceFoam_Speed: 0.1
-    - _SurfaceFoam_Tiling: 2.32
+    - _SurfaceFoam_Tiling: 1.59
     - _SurfaceType: 1
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
@@ -287,10 +304,10 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_DeepWater: {r: 0.11764706, g: 0.41568628, b: 0.88235295, a: 1}
+    - _Color: {r: 0.5924529, g: 0.3078276, b: 0, a: 1}
+    - _Color_DeepWater: {r: 0, g: 0.28626496, b: 0.3132075, a: 0}
     - _Color_Horizon: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_ShallowWater: {r: 0.11764706, g: 0.79607844, b: 0.88235295, a: 1}
+    - _Color_ShallowWater: {r: 0, g: 0.90140843, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _Direction: {r: 1.35, g: 53.69, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
@@ -301,6 +318,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular_Color: {r: 1, g: 0.4702085, b: 0.2320754, a: 0.85490197}
     - _SurfaceFoam_Color: {r: 0.7081452, g: 0.9179368, b: 0.96981126, a: 1}
     - _SurfaceFoam_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SurfaceFoam_UV: {r: 0, g: 0, b: 0, a: 0}
