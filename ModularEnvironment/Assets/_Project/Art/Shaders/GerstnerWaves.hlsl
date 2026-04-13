@@ -28,29 +28,23 @@ float3 GerstnerWave(float3 position, float steepness, float wavelength, float sp
         );
 }
 
-void GerstnerWaves_float(float3 position, float steepness, float wavelength, float speed, float direction1, float direction2, float direction3, float direction4, out float3 Offset)
+void GerstnerWaves_float(float3 position, float steepness, float wavelength, float speed, float2 uv, UnityTexture2D _FlowMap, out float3 Offset)
 {
     Offset = 0;
     float3 tangent = float3(1, 0, 0);
     float3 binormal = float3(0, 0, 1);
 
-    float2 directions[4];
-    directions[0] = direction1;
-    directions[1] = direction2;
-    directions[2] = direction3;
-    directions[3] = direction4;
+    float4 flowSample = _FlowMap.SampleLevel(_FlowMap.samplerstate, uv, 0);
+    float2 flow = flowSample.rg * 2 - 1;
 
-    for (int i = 0; i < 4; i++)
-    {
-        float dir = atan2(directions[i].y, directions[i].x) / 3.14 * 0.5 + 0.5;
-        Offset += GerstnerWave(position, steepness, wavelength, speed, dir, tangent, binormal);
-    }
+    float2 flow1 = flow;
+    float2 flow2 = normalize(flow + float2(0.3, 0.7));
+    float2 flow3 = normalize(flow + float2(-0.6, 0.2));
+    float2 flow4 = normalize(flow + float2(0.1, -0.8));
 
 
-    /*
-    Offset += GerstnerWave(position, steepness, wavelength, speed, directions.x, tangent, binormal);
-    Offset += GerstnerWave(position, steepness, wavelength, speed, directions.y, tangent, binormal);
-    Offset += GerstnerWave(position, steepness, wavelength, speed, directions.z, tangent, binormal);
-    Offset += GerstnerWave(position, steepness, wavelength, speed, directions.w, tangent, binormal);
-    */
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow1, tangent, binormal);
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow2, tangent, binormal);
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow3, tangent, binormal);
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow4, tangent, binormal);
 }
