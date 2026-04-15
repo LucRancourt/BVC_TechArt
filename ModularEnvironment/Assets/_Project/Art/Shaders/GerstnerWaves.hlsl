@@ -1,10 +1,10 @@
 
 // Credits to : https://ameye.dev/notes/stylized-water-shader/
 
-float3 GerstnerWave(float3 position, float steepness, float wavelength, float speed, float direction, inout float3 tangent, inout float3 binormal)
+float3 GerstnerWave(float3 position, float steepness, float wavelength, float speed, float2 direction, inout float3 tangent, inout float3 binormal)
 {
-    direction = direction * 2 - 1;
-    float2 d = normalize(float2(cos(3.14 * direction), sin(3.14 * direction)));
+    //direction = direction * 2 - 1;
+    float2 d = direction;//normalize(float2(cos(3.14 * direction), sin(3.14 * direction)));
     float k = 2 * 3.14 / wavelength;
     float f = k * (dot(d, position.xz) - speed * _Time.y);
     float a = steepness / k;
@@ -43,8 +43,8 @@ void GerstnerWaves_float(float3 position, float steepness, float wavelength, flo
     float2 flow4 = normalize(flow + float2(0.1, -0.8));
 
 
-    Offset += GerstnerWave(position, steepness, wavelength, speed, flow1, tangent, binormal);
-    Offset += GerstnerWave(position, steepness, wavelength, speed, flow2, tangent, binormal);
-    Offset += GerstnerWave(position, steepness, wavelength, speed, flow3, tangent, binormal);
-    Offset += GerstnerWave(position, steepness, wavelength, speed, flow4, tangent, binormal);
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow, tangent, binormal);
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow, tangent, binormal);
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow, tangent, binormal);
+    Offset += GerstnerWave(position, steepness, wavelength, speed, flow, tangent, binormal);
 }

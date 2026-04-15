@@ -844,6 +844,20 @@
             },
             "m_InputSlot": {
                 "m_Node": {
+                    "m_Id": "5108fba8a9034112b3db9b6759401267"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "2797d88709104ca580c55d0ffb889bda"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
                     "m_Id": "b291aac2f8334b76a9c0d3e70dc20a07"
                 },
                 "m_SlotId": 0
@@ -1454,6 +1468,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "9a17c14a12704b5b9442b33541f49cc8"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "56102dbc3c234be08df86b1dac092ad2"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "9cfd2ac2b0ca44a4a30e9fa57c76dc33"
                 },
                 "m_SlotId": 0
@@ -1981,6 +2009,20 @@
                     "m_Id": "6a171c8e555a4b62b354f109b2140ec1"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "db195cb86be045a881c077e2a2d4fead"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "4f16e9ba52f4402995af9f30a234f89d"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -3191,8 +3233,8 @@
     "m_ObjectId": "0b111ebe9db747d788de08b4798d5063",
     "m_Title": "Horizon Color",
     "m_Position": {
-        "x": -1440.800048828125,
-        "y": -108.7999267578125
+        "x": -1439.9998779296875,
+        "y": -107.00006103515625
     }
 }
 
@@ -3631,8 +3673,8 @@
     "m_ObjectId": "14172d3f9116499f8c0e6e2b0a76093e",
     "m_Title": "SurfaceFoam Color",
     "m_Position": {
-        "x": -94.39990234375,
-        "y": 1730.4000244140625
+        "x": -93.99996948242188,
+        "y": 1732.0
     }
 }
 
@@ -5401,8 +5443,8 @@
     "m_ObjectId": "3a47c6646a824844b79ce6d0da85765a",
     "m_Title": "Alpha",
     "m_Position": {
-        "x": 2836.800048828125,
-        "y": 2452.7998046875
+        "x": 2837.0,
+        "y": 2454.99951171875
     }
 }
 
@@ -5513,8 +5555,8 @@
     "m_ObjectId": "3ca75b93149449bf82e485ca26f68db6",
     "m_Title": "Underwater Color",
     "m_Position": {
-        "x": 96.000244140625,
-        "y": 811.2000122070313
+        "x": 97.0,
+        "y": 812.9999389648438
     }
 }
 
@@ -6835,8 +6877,8 @@
     "m_ObjectId": "51f5f7a4c88742a086c8b3a5f58a51fd",
     "m_Title": "SurfaceFoam",
     "m_Position": {
-        "x": -1304.000244140625,
-        "y": 1627.9998779296875
+        "x": -1303.0,
+        "y": 1630.0
     }
 }
 
@@ -6846,8 +6888,8 @@
     "m_ObjectId": "53acaf9c09e64667b6081e764eea10af",
     "m_Title": "Emissive",
     "m_Position": {
-        "x": 2659.999755859375,
-        "y": 3414.39990234375
+        "x": 2660.0,
+        "y": 3415.999755859375
     }
 }
 
@@ -7585,8 +7627,8 @@
     "m_ObjectId": "5cd6c55b317e4df8aba15f791e3eaf4b",
     "m_Title": "Added Sine Distortion",
     "m_Position": {
-        "x": -4740.798828125,
-        "y": 2379.199951171875
+        "x": -4739.99951171875,
+        "y": 2381.0
     }
 }
 
@@ -9583,8 +9625,8 @@
     "m_ObjectId": "8593f3c5cbdc45a7b7c8ab1e4448aa62",
     "m_Title": "Normals",
     "m_Position": {
-        "x": -3754.399658203125,
-        "y": 4781.6005859375
+        "x": -3754.000244140625,
+        "y": 4782.99951171875
     }
 }
 
@@ -9735,8 +9777,8 @@
     "m_ObjectId": "8968a5e1c7fb45b4913ef6f079399927",
     "m_Title": "Depth Color",
     "m_Position": {
-        "x": -2111.199951171875,
-        "y": -713.5999755859375
+        "x": -2111.0,
+        "y": -711.9998779296875
     }
 }
 
@@ -10263,8 +10305,8 @@
     "m_ObjectId": "92064185719e452690e6e7a4122f461f",
     "m_Title": "Intersection Foam Depth",
     "m_Position": {
-        "x": -586.39990234375,
-        "y": 2817.60009765625
+        "x": -585.9999389648438,
+        "y": 2818.999755859375
     }
 }
 
@@ -10885,8 +10927,8 @@
     "m_ObjectId": "9b74c778765841fea7dbceb6e401784d",
     "m_Title": "Refraction for HDRP - Credits: https://www.youtube.com/watch?v=QAH1Kep3zRM",
     "m_Position": {
-        "x": -1835.999755859375,
-        "y": 636.800048828125
+        "x": -1834.9998779296875,
+        "y": 638.9999389648438
     }
 }
 
@@ -11353,8 +11395,8 @@
     "m_ObjectId": "a0cedbfd59414e75bf26f640ffd2cbcb",
     "m_Title": "Surface Lighting Reflection",
     "m_Position": {
-        "x": -1800.800048828125,
-        "y": 5571.2001953125
+        "x": -1799.9998779296875,
+        "y": 5572.99951171875
     }
 }
 
@@ -13476,10 +13518,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1796.0001220703125,
-            "y": 801.6000366210938,
+            "x": 2360.0,
+            "y": 1102.0,
             "width": 208.0,
-            "height": 312.00006103515627
+            "height": 314.0
         }
     },
     "m_Slots": [
@@ -14814,8 +14856,8 @@
     "m_ObjectId": "d79a0dbcc54347af97e16f610339bb1e",
     "m_Title": "Waves",
     "m_Position": {
-        "x": 1770.39990234375,
-        "y": 740.7999877929688
+        "x": 2335.0,
+        "y": 1042.9998779296875
     }
 }
 
@@ -14849,8 +14891,8 @@
     "m_ObjectId": "d82f35ad36db46339277a5dd9cffe984",
     "m_Title": "Intersection Foam Distortion",
     "m_Position": {
-        "x": -720.0,
-        "y": 3520.0
+        "x": -718.9999389648438,
+        "y": 3522.0
     }
 }
 
