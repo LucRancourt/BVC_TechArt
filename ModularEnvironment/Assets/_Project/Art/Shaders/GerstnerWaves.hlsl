@@ -28,14 +28,15 @@ float3 GerstnerWave(float3 position, float steepness, float wavelength, float sp
         );
 }
 
-void GerstnerWaves_float(float3 position, float steepness, float wavelength, float speed, float2 uv, UnityTexture2D _FlowMap, out float3 Offset)
+void GerstnerWaves_float(float3 position, float steepness, float wavelength, float speed, float2 flowRG, out float3 Offset) // float2 uv, UnityTexture2D _FlowMap
 {
     Offset = 0;
     float3 tangent = float3(1, 0, 0);
     float3 binormal = float3(0, 0, 1);
 
-    float4 flowSample = _FlowMap.SampleLevel(_FlowMap.samplerstate, uv, 0);
-    float2 flow = flowSample.rg * 2 - 1;
+    //float4 flowSample = _FlowMap.SampleLevel(_FlowMap.samplerstate, uv, 0);
+    //float2 flow = flowSample.rg * 2 - 1;
+    float2 flow = flowRG * 2 - 1;
 
     float2 flow1 = flow;
     float2 flow2 = normalize(flow + float2(0.3, 0.7));

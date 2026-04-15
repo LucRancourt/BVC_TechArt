@@ -238,7 +238,8 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
     - _Float: 8.44
-    - _FlowMap_Strength: 1
+    - _FlowMap_Rotation: 0
+    - _FlowMap_Strength: 0.5
     - _FlowMap_Tiling: 1
     - _Foam_Intersection_Speed: 1
     - _Foam_Intersection_Tiling: 1
@@ -255,8 +256,8 @@ Material:
     - _IntersectionFoam_Cutoff: 1.12
     - _IntersectionFoam_Depth: 0.13
     - _IntersectionFoam_Fade: 0.43
-    - _IntersectionFoam_Speed: 0.09
-    - _IntersectionFoam_Tiling: 11.26
+    - _IntersectionFoam_Speed: 0.5
+    - _IntersectionFoam_Tiling: 20
     - _InvTilingScale: 1
     - _Ior: 1.5
     - _IridescenceMask: 1
@@ -289,7 +290,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _Refraction_Strength: 0.014
+    - _Refraction_Strength: 0.02
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _Smoothness: 0.5
@@ -314,12 +315,12 @@ Material:
     - _SupportDecals: 1
     - _SurfaceFoam_Direction: 2.05
     - _SurfaceFoam_DistortionStrength: 0.41
-    - _SurfaceFoam_Intensity: 0.45
+    - _SurfaceFoam_Intensity: 0.12
     - _SurfaceFoam_Speed: 0.06
-    - _SurfaceFoam_Tiling: 1
+    - _SurfaceFoam_Tiling: 0.8
     - _SurfaceType: 1
     - _TessellationBackFaceCullEpsilon: 0
-    - _TessellationFactor: 100
+    - _TessellationFactor: 15
     - _TessellationFactorMaxDistance: 50
     - _TessellationFactorMinDistance: 20
     - _TessellationFactorTriangleSize: 100
@@ -343,9 +344,9 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _Wave_Length: 0.44
+    - _Wave_Length: 0.3
     - _Wave_Speed: 0.1
-    - _Wave_Steepness: 0.4
+    - _Wave_Steepness: 0.2
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
@@ -363,6 +364,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
+    - _FlowMap_Rotation: {r: 0, g: 0, b: 0, a: 0}
     - _IntersectionFoam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
