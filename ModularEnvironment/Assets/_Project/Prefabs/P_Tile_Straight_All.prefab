@@ -143,6 +143,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2486431445650244551, guid: 5fe8441f96424b74d9be00622ba58e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585258501319905493, guid: 5fe8441f96424b74d9be00622ba58e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4405244633015344289, guid: 5fe8441f96424b74d9be00622ba58e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949182914322588784, guid: 5fe8441f96424b74d9be00622ba58e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7850063711978319582, guid: 5fe8441f96424b74d9be00622ba58e51, type: 3}
       propertyPath: m_Name
       value: P_Piece_Wall_Straight_Pillars
