@@ -3489,8 +3489,8 @@
     "m_ObjectId": "0b111ebe9db747d788de08b4798d5063",
     "m_Title": "Horizon Color",
     "m_Position": {
-        "x": -1440.0,
-        "y": -107.0
+        "x": -1440.8001708984375,
+        "y": -108.7999267578125
     }
 }
 
@@ -4003,8 +4003,8 @@
     "m_ObjectId": "14172d3f9116499f8c0e6e2b0a76093e",
     "m_Title": "SurfaceFoam Color",
     "m_Position": {
-        "x": -94.0,
-        "y": 1732.0
+        "x": -94.4000244140625,
+        "y": 1730.4000244140625
     }
 }
 
@@ -6309,8 +6309,8 @@
     "m_ObjectId": "3a47c6646a824844b79ce6d0da85765a",
     "m_Title": "Alpha",
     "m_Position": {
-        "x": 2837.0,
-        "y": 2455.0
+        "x": 2836.800048828125,
+        "y": 2452.7998046875
     }
 }
 
@@ -6412,8 +6412,8 @@
     "m_ObjectId": "3ca75b93149449bf82e485ca26f68db6",
     "m_Title": "Underwater Color",
     "m_Position": {
-        "x": 97.0,
-        "y": 813.0
+        "x": 96.0,
+        "y": 811.199951171875
     }
 }
 
@@ -8137,8 +8137,8 @@
     "m_ObjectId": "51f5f7a4c88742a086c8b3a5f58a51fd",
     "m_Title": "SurfaceFoam",
     "m_Position": {
-        "x": -3702.999755859375,
-        "y": 1582.9998779296875
+        "x": -3703.199951171875,
+        "y": 1581.599853515625
     }
 }
 
@@ -8148,8 +8148,8 @@
     "m_ObjectId": "53acaf9c09e64667b6081e764eea10af",
     "m_Title": "Emissive",
     "m_Position": {
-        "x": 2660.0,
-        "y": 3416.0
+        "x": 2659.999755859375,
+        "y": 3414.39990234375
     }
 }
 
@@ -10797,8 +10797,8 @@
     "m_ObjectId": "8593f3c5cbdc45a7b7c8ab1e4448aa62",
     "m_Title": "Normals",
     "m_Position": {
-        "x": -4345.0,
-        "y": 4783.0
+        "x": -4345.60009765625,
+        "y": 4781.6005859375
     }
 }
 
@@ -11013,8 +11013,8 @@
     "m_ObjectId": "8968a5e1c7fb45b4913ef6f079399927",
     "m_Title": "Depth Color",
     "m_Position": {
-        "x": -2111.0,
-        "y": -712.0
+        "x": -2111.199951171875,
+        "y": -713.599853515625
     }
 }
 
@@ -11577,8 +11577,8 @@
     "m_ObjectId": "92064185719e452690e6e7a4122f461f",
     "m_Title": "Intersection Foam Depth",
     "m_Position": {
-        "x": -586.0,
-        "y": 2819.0
+        "x": -586.39990234375,
+        "y": 2817.599853515625
     }
 }
 
@@ -12136,8 +12136,8 @@
     "m_ObjectId": "9b74c778765841fea7dbceb6e401784d",
     "m_Title": "Refraction for HDRP - Credits: https://www.youtube.com/watch?v=QAH1Kep3zRM",
     "m_Position": {
-        "x": -1835.0,
-        "y": 639.0
+        "x": -1835.9998779296875,
+        "y": 636.800048828125
     }
 }
 
@@ -12542,8 +12542,8 @@
     "m_ObjectId": "a0cedbfd59414e75bf26f640ffd2cbcb",
     "m_Title": "Surface Lighting Reflection",
     "m_Position": {
-        "x": -1800.0,
-        "y": 5573.0
+        "x": -1800.8001708984375,
+        "y": 5571.2001953125
     }
 }
 
@@ -16379,8 +16379,8 @@
     "m_ObjectId": "d79a0dbcc54347af97e16f610339bb1e",
     "m_Title": "Waves",
     "m_Position": {
-        "x": 2430.0,
-        "y": 932.0
+        "x": 2429.599365234375,
+        "y": 930.4000244140625
     }
 }
 
@@ -16414,8 +16414,8 @@
     "m_ObjectId": "d82f35ad36db46339277a5dd9cffe984",
     "m_Title": "Intersection Foam Distortion",
     "m_Position": {
-        "x": -719.0,
-        "y": 3522.0
+        "x": -719.9999389648438,
+        "y": 3520.0
     }
 }
 

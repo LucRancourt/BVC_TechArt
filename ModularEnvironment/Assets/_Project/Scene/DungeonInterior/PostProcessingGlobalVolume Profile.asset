@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.ColorAdjustments
-  active: 1
+  active: 0
   postExposure:
     m_OverrideState: 1
     m_Value: 1.35
@@ -85,7 +85,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 43
   saturation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: -42.2
 --- !u!114 &-5746034952344134237
 MonoBehaviour:
