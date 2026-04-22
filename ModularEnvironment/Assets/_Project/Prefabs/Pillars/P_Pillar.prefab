@@ -244,7 +244,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b64f730d5845014488b933ea1fc680c4, type: 2}
+  - {fileID: 2100000, guid: 9d92b779eb619b64f84725ff6bae1c61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -422,7 +422,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b64f730d5845014488b933ea1fc680c4, type: 2}
+  - {fileID: 2100000, guid: 9d92b779eb619b64f84725ff6bae1c61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -494,7 +494,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.7815443
+  - screenRelativeHeight: 0.29692474
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1596954189608211885}
@@ -507,20 +507,7 @@ LODGroup:
     - renderer: {fileID: 4647932584486907071}
     - renderer: {fileID: 8696310128645959700}
     - renderer: {fileID: 5392428940953060131}
-  - screenRelativeHeight: 0.19525358
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 9130980105385875647}
-    - renderer: {fileID: 1542768411964764555}
-    - renderer: {fileID: 5858130247632682434}
-    - renderer: {fileID: 4603625884898826888}
-    - renderer: {fileID: 8418251572442838540}
-    - renderer: {fileID: 7797964219890808257}
-    - renderer: {fileID: 174293112042091154}
-    - renderer: {fileID: 8811230818010674363}
-    - renderer: {fileID: 7800353640101018284}
-    - renderer: {fileID: 4558707133566585338}
-  - screenRelativeHeight: 0.022615174
+  - screenRelativeHeight: 0.015990142
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 9130980105385875647}
