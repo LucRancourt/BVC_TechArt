@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7725352018952947143}
   - component: {fileID: 5362361174330485296}
   - component: {fileID: 9012850260115523159}
-  - component: {fileID: 2355163351431405874}
+  - component: {fileID: 6528901120295878929}
   m_Layer: 0
   m_Name: P_Spike_06
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4792328910230969835}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -53,7 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -90,8 +90,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2355163351431405874
-MeshCollider:
+--- !u!65 &6528901120295878929
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -108,7 +108,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3633436931086272786, guid: 2c6d64719838b2a43b1f1545ac74d0b1, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.17336318, y: 2.2573788, z: 0.17335549}
+  m_Center: {x: -0.010267559, y: 0.22265735, z: 0.027064476}

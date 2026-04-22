@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4841412889619632341}
   - component: {fileID: 5500238229523812723}
   - component: {fileID: 8683647797771039831}
-  - component: {fileID: 4035004562645071778}
+  - component: {fileID: 1691011217408672804}
   m_Layer: 0
   m_Name: P_Ledge_Corner_Half
   m_TagString: Untagged
@@ -53,7 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -90,7 +90,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4035004562645071778
+--- !u!64 &1691011217408672804
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

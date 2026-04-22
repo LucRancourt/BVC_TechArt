@@ -93,7 +93,7 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
   m_LightUnit: 2
   m_LuxAtDistance: 1.8
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_ShapeWidth: 6.6929865
   m_ShapeHeight: 4.6449704
   m_AspectRatio: 5.36
-  m_ShapeRadius: 0
+  m_ShapeRadius: 1
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -333,7 +333,7 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
   m_LightUnit: 2
   m_LuxAtDistance: 1.8
@@ -369,7 +369,7 @@ MonoBehaviour:
   m_ShapeWidth: 6.6929865
   m_ShapeHeight: 4.6449704
   m_AspectRatio: 5.36
-  m_ShapeRadius: 0
+  m_ShapeRadius: 1
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
